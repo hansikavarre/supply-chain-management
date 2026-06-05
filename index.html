@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Supply Chain AI Simulator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h1> AI Supply Chain Dashboard</h1>
+
+<div class="container">
+
+    <div class="card">
+        <h2>📊 Stock Levels</h2>
+        <p>Supplier: <span id="supplier"></span></p>
+        <p>Warehouse: <span id="warehouse"></span></p>
+        <p>Retailer: <span id="retailer"></span></p>
+        <p>Predicted Demand: <span id="prediction"></span></p>
+    </div>
+
+    <div class="buttons">
+        <button onclick="runSimulation()">Run</button>
+        <button onclick="startAuto()">Auto</button>
+        <button onclick="stopAuto()">Stop</button>
+    </div>
+
+    <div class="card">
+        <h2>📈 Stock Trend</h2>
+        <canvas id="chart"></canvas>
+    </div>
+
+    <div class="card">
+        <h2>⚠ Alerts</h2>
+        <ul id="alerts"></ul>
+    </div>
+
+    <div class="card">
+        <h2>📜 History</h2>
+        <ul id="history"></ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

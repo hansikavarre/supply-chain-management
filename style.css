@@ -1,0 +1,37 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 350px;
+    border-radius: 15px;
+}
+
+button {
+    margin: 10px;
+    padding: 12px 18px;
+    border: none;
+    background: #00c9ff;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0096c7;
+}
+
+ul {
+    text-align: left;
+}
