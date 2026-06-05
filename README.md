@@ -1,2 +1,44 @@
-# supply-chain-management
-A supply chain management system to track, manage and optimize the flow of goods, data and resources from supplier to customer using Python and web technologies.
+# 🔗 Supply Chain Management
+
+A web-based supply chain management system to track, manage and optimize the flow of goods, data and resources from supplier to customer.
+
+---
+
+## 🚀 Features
+- ✅ Inventory tracking and management
+- ✅ Order processing and status updates
+- ✅ Supplier and customer management
+- ✅ Real-time data monitoring
+- ✅ Simple and intuitive web interface
+
+---
+
+## 🛠️ Technologies Used
+- Python
+- Flask
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## ⚙️ How to Run
+
+### Backend
+1. Clone the repository
+2. Install dependencies:
+3. Run the app:
+### Frontend
+4. Go to the frontend folder
+5. Open `index.html` with **Live Server** in VS Code
+
+---
+
+## 📸 Screenshots
+![Screenshot 1](screenshot1.png)
+![Screenshot 2](screenshot2.png)
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
